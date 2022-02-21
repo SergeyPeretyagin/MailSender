@@ -1,0 +1,32 @@
+//package listener;
+//
+//import service.EmailSender;
+//import service.TimerSender;
+//
+//import javax.servlet.ServletContextEvent;
+//import javax.servlet.ServletContextListener;
+//import javax.servlet.annotation.WebListener;
+//
+//@WebListener
+//public class Listener implements ServletContextListener {
+//    @Override
+//    public void contextInitialized(ServletContextEvent sce) {
+//        System.out.println("start");
+////        TimerSender.sendByTimer();
+////        EmailSender.emailSender();
+//
+////        try {
+////            Thread.currentThread().join();
+////        } catch (
+////                InterruptedException e) {
+////            e.printStackTrace();
+////        }
+//        System.out.println("listener end");
+//    }
+//
+//    @Override
+//    public void contextDestroyed(ServletContextEvent sce) {
+//
+////        EmailSender.emailSender();
+//    }
+//}
