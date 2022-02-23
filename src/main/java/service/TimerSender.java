@@ -12,8 +12,8 @@ public class TimerSender {
     public static void sendByTimer(String fromEmail, String toEmail, Properties properties, Authenticator auth) {
         System.out.println("method send by timer - start");
         Calendar startCalendar = Calendar.getInstance();
-//        long day = 86_400_000L;
-        long day = 10000;
+        long day = 86_400_000L;
+//        long day = 10000;
         //проверка времени запуска
 
         if (Calendar.getInstance().getTime().getHours() < 15) {
